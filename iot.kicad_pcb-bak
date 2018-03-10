@@ -3,9 +3,9 @@
   (general
     (links 49)
     (no_connects 49)
-    (area 60.03084 96.368799 205.950502 143.564681)
+    (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 5)
+    (drawings 9)
     (tracks 0)
     (zones 0)
     (modules 21)
@@ -63,7 +63,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (grid_origin 90 145)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFEFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -1167,6 +1167,10 @@
     )
   )
 
+  (gr_line (start 60.7314 131.318) (end 60.7314 96.4438) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 88.4428 143.48968) (end 60.6044 143.48968) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 88.5698 96.4438) (end 88.5698 131.318) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 60.9092 96.4438) (end 88.5698 96.4438) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 87.2236 112.7506) (end 87.0966 112.7506) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 87.2236 97.7011) (end 87.2236 112.7506) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 62.0141 97.7011) (end 87.2236 97.7011) (angle 90) (layer F.SilkS) (width 0.2))
